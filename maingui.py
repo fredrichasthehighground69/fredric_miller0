@@ -17,8 +17,8 @@ root.geometry('500x580')
 pygame.mixer.init()
 ##########################
 
-list_of_songs = ['music/#Insert music here.mp3'] # Add more MP3S into the music directory.
-list_of_covers = ['img/#Insert img here.jpeg'] # Add more JPEGS into the img directory.
+list_of_songs = ['music/#Insert music file name here with applicable file format.mp3'] # Add MP3S into the music directory. Remember, this program is case-sensitive.
+list_of_covers = ['img/#Insert img file name here with applicable file format.jpeg'] # Add JPEGS into the img directory. Remember, this program is case-sensitive.
 n = 0
 
 def get_album_cover(song_name, n):
